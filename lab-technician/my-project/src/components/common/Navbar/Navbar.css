@@ -1,0 +1,8 @@
+.formcontrol {  width: 448px;  height: 41.6px;  padding-top: 10.8px;  padding-left: 24px;}
+.nav-inner {  height: 60px;  top: 7.6px;  left: 898.89px;  display: flex;  align-items: center;  margin-left: auto;  gap: 15px;}
+.home-btn {  display: flex;  flex-direction: row;  width: 144.9px;  height: 40px;  padding-top: 10px;  padding-left: 12px;  border-radius: 10px;  gap: 8px;  background-color: #f1f5f9;}
+.bell-btn {  width: 20px;  height: 20px;  border-radius: 10px;  position: relative;  display: flex;  align-items: center;  justify-content: center;  margin-right: 12px;}
+.red-dot {  width: 8px;  height: 8px;  border-radius: 26843500px;  background-color: #fb2c36;  position: absolute;  top: 1px;  right: 4px;}
+.admin-section {  display: flex;  flex-direction: column;  height: 48px;  gap: 0px;  left: 212.9px;}
+.admin-data1 {  height: 24px;  top: -1.2px;  font-weight: 400;  font-size: 16px;  line-height: 24px;  letter-spacing: 0px;  margin: 0;}
+.admin-data2 {  height: 24px;  top: -1.2px;  font-weight: 400;  font-size: 16px;  line-height: 24px;  letter-spacing: 0px;  margin: 0;}

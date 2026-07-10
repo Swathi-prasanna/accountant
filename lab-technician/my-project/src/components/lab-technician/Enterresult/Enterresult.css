@@ -1,0 +1,31 @@
+.patient-info h5,.test-info h5,.result-section h5{  margin-bottom:20px;  border-bottom:1px solid #dbeafe;  padding-bottom:10px;}
+.enter-result-overlay {  position: fixed;  inset: 0;  background: rgba(15, 23, 42, 0.55);  display: flex;  align-items: center;  justify-content: center;  padding: 24px;  z-index: 2000;}
+.enter-result-modal {  width: min(672px, 100%);  max-height: calc(100vh - 48px);  overflow-y: auto;  background: #ffffff;  border-radius: 8px;  box-shadow: 0 24px 60px rgba(15, 23, 42, 0.28);}
+.enter-result-header { width: 888;height: 105.5999984741211;justify-content: space-between;angle: 0 deg;opacity: 1;border-bottom-width: 0.8px;padding-right: 24px;padding-left: 24px;display: flex;align-items: flex-start;gap: 24px;padding: 24px 18px 20px;border-bottom: 1px solid #e2e8f0;border-bottom: 0.8px solid #E2E8F0}
+.enter-result-header h2 {color: #0f172b;font-family: "Google Sans", sans-serif !important;font-weight: 600;font-style: Semibold;font-size: 24px;leading-trim: NONE;line-height: 31.2px;letter-spacing: -0.6px;width: 180;height: 32;angle: 0 deg;opacity: 1;top: -0.8px; }
+.enter-result-header p {  color: #45556c;  font-size: 13px;  margin: 4px 0 0;}
+.enter-result-close {  width: 32px;  height: 32px;  border: 0;  border-radius: 8px;  background: transparent;  color: #0f172b;  font-size: 20px;  line-height: 1;}
+.enter-result-close:hover {  background: #f1f5f9;}
+.enter-result-summary {  display: grid;  grid-template-columns: 1fr 1.3fr 0.7fr;  gap: 24px;  margin: 18px;  padding: 16px;  background: #f8fafc;  border-radius: 8px;}
+.enter-result-summary div {  display: flex;  flex-direction: column;  gap: 6px;}
+.enter-result-summary span,.enter-result-form label span {  color: #314158;  font-size: 13px;}
+.enter-result-summary strong {  color: #0f172b;  font-size: 14px;  font-weight: 500;}
+.enter-result-badge {  width: fit-content;  background: #dbeafe;  color: #2563eb !important;  border-radius: 999px;  padding: 4px 10px;  font-size: 12px !important;}
+.enter-result-form {  padding: 0 18px 22px;}
+.enter-result-section-title {  border-bottom: 1px solid #cbd5e1;  margin-bottom: 14px;}
+.enter-result-section-title h3 {  color: #0f172b;  font-size: 16px;  font-weight: 700;  margin: 0 0 8px;}
+.enter-result-row {  display: grid;  grid-template-columns: 1fr 1fr 0.9fr;  gap: 12px;  margin-bottom: 24px;}
+.enter-result-row.two-column {width: 840;height: 87.5999984741211;angle: 0 deg;opacity: 1;rows: 1;columns: 2;row-gap: 16px;column-gap: 16px;}
+.enter-result-form label {  display: flex;  flex-direction: column;  gap: 8px;}
+.enter-result-form textarea {  width: 100%;  border: 1px solid #cbd5e1;  border-radius: 6px;  color: #0f172b;  font-size: 14px;  outline: none;  padding: 9px 10px;}
+.enter-result-form input:focus,.enter-result-form textarea:focus {  border-color: #0ea5e9;  box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.16);}
+.enter-result-check {  align-self: end;  flex-direction: row !important;  align-items: center;  min-height: 38px;}
+.enter-result-check input,.critical-alert input {  width: 16px;  height: 16px;}
+.enter-result-check span {  color: #e7000b !important;}
+.enter-result-textarea {width: 840;height: 125.20000457763672;gap: 6px;angle: 0 deg;opacity: 1;}
+.enter-result-textarea textarea {  width: 840;height: 89.5999984741211;border-radius: 10px;border-width: 0.8px;padding-top: 8px;padding-right: 12px;padding-bottom: 8px;padding-left: 12px;angle: 0 deg;opacity: 1;background: #FFFFFF;border-top: 0.8px solid #CAD5E2}
+.critical-alert { width: 840;height: 119.5999984741211;border-radius: 10px;border-width: 0.8px;padding-top: 16.8px;padding-right: 16.8px;padding-bottom: 0.8px;padding-left: 16.8px;gap: 10px;angle: 0 deg;opacity: 1;background: #FFF7ED;border-top: 0.8px solid #FFD6A7;}
+.critical-alert-title {width: 806.4000244140625;height: 24;gap: 8px;angle: 0 deg;opacity: 1;color: #7E2A0C;}
+.critical-alert p {width: 333;height: 20;angle: 0 deg;opacity: 1;top: -0.2px;font-family: "Google Sans", sans-serif !important;font-weight: 400;font-style: Regular;font-size: 14px;leading-trim: NONE;line-height: 20px;letter-spacing: 0px;color: #9F2D00;}
+.enter-result-actions{width: 840;height: 56.79999923706055;padding-top: 16px;padding-right: -0px;gap: 12px;angle: 0 deg;opacity: 1;border-top-width: 0.8px;border-top: 0.8px solid #CAD5E2}
+.btn-success1{width: 748.1625366210938;height: 40;border-radius: 10px;angle: 0 deg;opacity: 1;background: #00C950;}

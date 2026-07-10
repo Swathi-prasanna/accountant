@@ -1,0 +1,16 @@
+.sample-page {width: 1278.4000244140625;height: 665.6000366210938;angle: 0 deg;opacity: 1;padding-top: 24px;padding-right: 24px;padding-left: 24px;}
+.sample-page-title {margin-bottom: 24px;width: 1230.4000244140625;angle: 0 deg;opacity: 1;}
+.sample-page-title h1 {font-family: "Google Sans", sans-serif !important;font-weight: 700;font-style: Bold;font-size: 30px;leading-trim: NONE;line-height: 36px;letter-spacing: -0.75px;color: #0F172B;margin:0;}
+.sample-page-title p {font-family: "Google Sans", sans-serif !important;font-weight: 400;font-style: Regular;font-size: 16px;leading-trim: NONE;line-height: 25.6px;letter-spacing: 0px;color: #45556C;}
+.sample-card {background: #ffffff;  border: 1px solid #e2e8f0;  border-radius: 12px;  box-shadow:    0px 1px 2px -1px rgba(0, 0, 0, 0.1),    0px 1px 3px 0px rgba(0, 0, 0, 0.1);  padding: 24px;  width: 100%;}
+.sample-card h2 {height: 28;angle: 0 deg;opacity: 1;top: 24.8px;left: 24.8px;}
+.sample-form {  display: flex;  flex-direction: column;  gap: 24px;}
+.sample-form-row {  display: grid;  grid-template-columns: 1fr 1fr;  gap: 16px;}
+.sample-form label {width: 582.4000244140625;height: 71.5999984741211;angle: 0 deg;opacity: 1;gap: 6px;angle: 0 deg;opacity: 1;display: flex;flex-direction: column;}
+.sample-form label span {width: 110;height: 24;angle: 0 deg;opacity: 1;top: -1.2px;font-family:"Google Sans", sans-serif !important;font-weight: 400;font-style: Regular;font-size: 16px;leading-trim: NONE;line-height: 24px;letter-spacing: 0px;color: #314158;}
+.sample-form input{width: 582.4000244140625;height: 41.60000228881836;border-radius: 10px;angle: 0 deg;opacity: 1;padding-top: 8px;padding-right: 12px;padding-bottom: 8px;padding-left: 12px;border-width: 0.8px;background: #FFFFFF;border-top: 0.8px solid #CAD5E2;}
+.sample-form textarea {width: 100%;border-radius: 8px;color: #0f172b;font-size: 14px;outline: none;padding: 10px 12px;background: #FFFFFF;border-top: 0.8px solid #CAD5E2;}
+.sample-form input {width:100%;height: 40px;font-family: "Google Sans", sans-serif !important;font-weight: 400;font-style: Regular;font-size: 16px;leading-trim: NONE;line-height: 100%;letter-spacing: 0px;color: #0F172B80;}
+.sample-form input:focus,.sample-form textarea:focus {  border-color: #0ea5e9;  box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.16);}
+.sample-confirm-btn {width: 191.75;height: 40;border-radius: 10px;angle: 0 deg;opacity: 1;top: 417.2px;left: 24.8px;font-family: "Google Sans", sans-serif !important;font-weight: 400;font-style: Regular;font-size: 16px;leading-trim: NONE;line-height: 24px;letter-spacing: 0px;text-align: center;background: #FFFFFF;align-items: center;align-self: flex-start;background: #00A6F4; border: 0;border-radius: 8px;color: #ffffff;display: inline-flex;font-size: 14px;gap: 8px;min-height: 40px; padding: 8px 16px;}
+.sample-confirm-btn:hover {  background: #00A6F4;}

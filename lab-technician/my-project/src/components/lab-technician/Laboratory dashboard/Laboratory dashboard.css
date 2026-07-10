@@ -1,0 +1,14 @@
+.lab-report-paper {  border: 1px solid #bfdbfe;  border-radius: 6px;  margin: 18px;  padding: 22px 18px;}
+.lab-report-hospital {  text-align: center;  margin-bottom: 22px;}
+.lab-report-hospital h1 {  color: #0f172b;  font-size: 18px;  font-weight: 700;  margin: 0 0 6px;}
+.lab-report-hospital p {  color: #314158;  font-size: 13px;  margin: 0 0 4px;}
+.lab-report-hospital span {  color: #64748b;  font-size: 11px;}
+.lab-report-info-grid {  display: grid;  grid-template-columns: 1fr 1fr;  gap: 18px;  margin-bottom: 20px;}
+.lab-report-row {  display: flex;  justify-content: space-between;  gap: 16px;  margin-bottom: 10px;}
+.lab-report-row span {  color: #45556c;  font-size: 12px;}
+.lab-report-row strong {  color: #0f172b;  font-size: 12px;  font-weight: 500;  text-align: right;}
+.lab-report-interpretation {  margin-top: 18px;}
+.lab-report-interpretation p {  color: #314158;  font-size: 12px;  margin: 0;}
+.lab-report-actions {  display: grid;  grid-template-columns: 1fr auto;  gap: 10px;  padding: 0 18px 18px;}
+.lab-report-next-btn {  background: #0ea5e9;  color: #ffffff;}
+.lab-report-next-btn:hover {  background: #0284c7;  color: #ffffff;}

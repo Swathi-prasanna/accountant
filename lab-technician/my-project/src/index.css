@@ -1,0 +1,60 @@
+body {  margin: 0;  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',    sans-serif;  -webkit-font-smoothing: antialiased;  -moz-osx-font-smoothing: grayscale;}
+ body {  margin: 0;  padding: 0;  background-color: #f8f9f8 !important;  font-family: "Google Sans", sans-serif !important;}
+.header {  display: flex;  flex-direction: row;  width: 255.2px;  height: 64px;  border-bottom: 0.8px;  justify-content: space-between;  padding-right: 16px;  padding-left: 16px;}
+.patient {  width: 85.06px;  height: 24px;}
+.task {  width: 126.78px;  height: 24px;}
+#header {  height: 64px;  border-bottom: 0.8px;  margin-left: 255.2px;}
+.app-layout {  display: flex;  min-height: 100vh;}
+.page-content {  padding: 84px 24px 24px;}
+.item{width: 1172.800048828125;height: 275.20001220703125;angle: 0 deg;opacity: 1;top: 48.4px;}
+.card {  border-radius: 16px !important;  border: 1px solid #e2e8f0 !important;}
+.test-queue { color: #0F172B;width: 101;height: 28;top: 0.8px;angle: 0 deg;opacity: 1;font-family:"Google Sans" sans-serif !important;font-weight: 600;font-style: Semibold;font-size: 20px;leading-trim: NONE;line-height: 28px;letter-spacing: 0px;margin-bottom: 18px;}
+.badge rounded-pill{  color: #1447E6;background: #DBEAFE;font-family: "Google Sans", sans-serif !important;font-weight: 600;font-style: Semibold;font-size: 12px;leading-trim: NONE;line-height: 18px;letter-spacing: 0px;}
+.btn-success,.btn-primary,.btn-light.border {  width: 140px;  height: 40px;  border-radius: 8px;  font-size: 14px;}
+.btn-success {  background-color: #00C950 !important;  color:#FFFFFF !important;}
+.btn-success:hover {  background-color: #00C950 !important;}
+.btn-light.border {  background-color:  #F1F5F9 !important;  color:#314158 !important;}
+.btn-light.border:hover {  background-color: #F1F5F9 !important;}
+.modal{  width:100%;  min-height:100vh;  background:#f4f6f9;  display:flex;  justify-content:center;  align-items:center;  padding:20px;}
+.modal-header h2{  font-size:32px;  color:#1e293b;}
+.model-header p{  color:#64748b;  margin-top:5px;}
+.form-group input,.form-group textarea{  width:100%;  padding:12px;  border:1px solid #cdb5e1;  border-radius:8px;  outline:none;  font-size:15px;}
+.checklist-box h4{  color:#0f4c81;  margin-bottom:15px;}
+.confirm-btn:hover{  background:#0284c7;}
+.report-modal{  min-height:100vh;  padding:30px;}
+.report-header{  padding:25px 30px;  border-bottom:1px solid #e5e7eb;}
+.report-header h2{  font-size:36px;  color:#1f2937;  margin-bottom:5px;}
+.report-header span{  color:#64748b;  font-size:18px;}
+.hospital-info h1{  font-size:42px;  margin-bottom:10px;}
+.hospital-info h4{  font-weight:500;  margin-bottom:8px;}
+.hospital-info p{  color: #94a3b8;}
+.result-table th{  padding:14px;  text-align:left;  font-weight:600;}
+.result-table td{  padding:14px;  border-bottom:1px solid #e5e7eb;}
+.Result {width: 180;height: 20;angle: 0 deg;opacity: 1;top: -0.2px;font-family: "Google Sans", sans-serif !important;;font-weight: 400;font-style: Regular;font-size: 14px;leading-trim: NONE;line-height: 20px;letter-spacing: 0px;color: #9F2D00;}
+.color{width: 160;height: 24;angle: 0 deg;opacity: 1;top: 6.8px;left: 305.96px;font-family: "Google Sans", sans-serif !important;;font-weight: 400;font-style: Regular;font-size: 16px;leading-trim: NONE;line-height: 24px;letter-spacing: 0px;text-align: center;color: #FFFFFF;}
+.btn btn-light{width: 79.8375015258789;height: 40;border-radius: 10px;angle: 0 deg;opacity: 1;padding-top: 8px;padding-right: 16px;padding-bottom: 8px;padding-left: 16px;gap: 8px;background: #F1F5F9;}
+.processing-overlay {  position: fixed;  inset: 0;  background: rgba(15, 23, 42, 0.55);  display: flex;  align-items: center;  justify-content: center;  padding: 24px;  z-index: 2000;}
+.processing-header {width: 664;height: 105.5999984741211;justify-content: space-between;angle: 0 deg;display:flex;opacity: 1;border-bottom-width: 0.8px;padding-right: 24px;padding-left: 24px;background: #FFFFFF;border-bottom: 0.8px solid #E2E8F0}
+.processing-header h2 {width: 167;height: 32;angle: 0 deg;opacity: 1;top: -0.8px;font-family: "Google Sans", sans-serif !important;font-weight: 600;font-style: Semibold;font-size: 24px;leading-trim: NONE;line-height: 31.2px;letter-spacing: -0.6px;color: #0F172B;}
+.processing-header p {width: 153;height: 26;angle: 0 deg;opacity: 1;top: -0.4px;font-family: "Google Sans", sans-serif !important;font-weight: 400;font-style: Regular;font-size: 16px;leading-trim: NONE;line-height: 25.6px;letter-spacing: 0px;color:#45556C;margin: 4px 0 0;}
+.processing-close {width: 36;height: 36;angle: 0 deg;opacity: 1;border-radius: 10px;padding-top: 8px;padding-right: 8px;padding-left: 8px;border: 0;border-radius: 8px;background: transparent;color: #0f172b;font-size: 20px;line-height: 1;}
+.processing-close:hover {  background: #f1f5f9;}
+.id{width: 616;height: 41.60000228881836;angle: 0 deg;opacity: 1;border-radius: 10px;padding-top: 8px;padding-right: 12px;padding-bottom: 8px;padding-left: 12px;border-width: 0.8px;background: #FFFFFF;border-top: 0.8px solid #CAD5E2}
+.Process{width: 84;height: 24;angle: 0 deg;opacity: 1;top: -1.2px;font-family: "Google Sans", sans-serif !important;font-weight: 400;font-style: Regular;font-size: 16px;leading-trim: NONE;line-height: 24px;letter-spacing: 0px;color: #314158;}
+.sample{width: 126;height: 24;angle: 0 deg;opacity: 1;top: -1.2px;font-family: "Google Sans", sans-serif !important;font-weight: 400;font-style: Regular;font-size: 16px;leading-trim: NONE;line-height: 24px;letter-spacing: 0px;color: #314158;}
+.Start{width: 616;height: 24;angle: 0 deg;opacity: 1;font-family:"Google Sans", sans-serif !important;font-weight: 400;font-style: Regular;font-size: 16px;leading-trim: NONE;line-height: 24px;letter-spacing: 0px;color: #314158;}
+.hero{  width: 616;height: 24;angle: 0 deg;opacity: 1;font-family: "Google Sans", sans-serif !important;font-weight: 400;font-style: Regular;font-size: 16px;leading-trim: NONE;line-height: 24px;letter-spacing: 0px;color: #314158;}
+.text{width: 400;height: 24;angle: 0 deg;opacity: 1;font-family: "Google Sans", sans-serif !important;font-weight: 400;font-style: Regular;font-size: 16px;leading-trim: NONE;line-height: 24px;letter-spacing: 0px;color: #0F172B80;}
+.lab-report-overlay {  position: fixed;  inset: 0;  background: rgba(15, 23, 42, 0.55);  display: flex;  align-items: center;  justify-content: center;  padding: 24px;  z-index: 2000;}
+.lab-report-modal {  width: min(672px, 100%);  max-height: calc(100vh - 48px);  overflow-y: auto;  background: #ffffff;  border-radius: 8px;  box-shadow: 0 24px 60px rgba(15, 23, 42, 0.28);}
+.lab-report-header {  display: flex;  align-items: flex-start;  justify-content: space-between;  gap: 24px;  padding: 20px 18px;  border-bottom: 1px solid #e2e8f0;}
+.lab-report-header h2 {  color: #0f172b;  font-size: 18px;  font-weight: 700;  line-height: 24px;  margin: 0;}
+.lab-report-header p {  color: #45556c;  font-size: 13px;  margin: 4px 0 0;}
+.lab-report-close {  width: 32px;  height: 32px;  border: 0;  border-radius: 8px;  background: transparent;  color: #0f172b;  font-size: 20px;  line-height: 1;}
+.lab-report-close:hover {  background: #f1f5f9;}
+.lab-report-info-grid h3,.lab-report-results h3,.lab-report-interpretation h3 {  border-bottom: 1px solid #cbd5e1;  color: #0f172b;  font-size: 12px;  font-weight: 700;  margin: 0 0 10px;  padding-bottom: 8px;}
+.lab-report-results table {  border-collapse: collapse;  width: 100%;}
+.lab-report-results th {width: 788.7999877929688;height: 44.400001525878906;angle: 0 deg;opacity: 1;border-bottom-width: 0.8px;background: #F8FAFC;border-bottom: 0.8px solid #E2E8F0;font-size: 12px;font-weight: 700;padding: 10px;text-align: left;}
+.lab-report-results td {width: 788.7999877929688;height: 49.9375;angle: 0 deg;opacity: 1;border-top-width: 0.8px;border-top: 0.8px solid #CAD5E2;color: #314158;font-size: 12px;padding: 10px;}
+.lab-report-normal {width: 60.85000228881836;height: 25.137500762939453;border-radius: 26843500px;angle: 0 deg;opacity: 1;top: 12.4px;left: 12px;padding-top: 4px;padding-right: 10px;padding-bottom: 4px;padding-left: 10px;gap: 4px;background: #DCFCE7;}
+@media (max-width: 700px) {  .lab-report-info-grid {    grid-template-columns: 1fr;  }  .lab-report-paper {    margin: 14px;    padding: 16px 12px;  }  .lab-report-actions,  .lab2-actions,  .lab2-signatures {    grid-template-columns: 1fr;  }  .sample-form-row {    grid-template-columns: 1fr;  }  .results-entry-row,  .results-parameter-grid {    grid-template-columns: 1fr;  }}

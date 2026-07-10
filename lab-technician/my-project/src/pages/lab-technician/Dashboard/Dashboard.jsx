@@ -1,0 +1,2 @@
+import HospitalData from '../../../components/lab-technician/HospitalData/HospitalData';import Nursingdashboard from '../../../components/lab-technician/Nursingdashboard/Nursingdashboard';import TestQueue from '../../../components/lab-technician/TestQueue/TestQueue';import './Dashboard.css';
+const Dashboard = () => {  return (    <>      <Nursingdashboard />      <HospitalData />      <TestQueue />    </>  );};export default Dashboard;

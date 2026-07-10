@@ -1,0 +1,4 @@
+.hero-main {  display: flex;  flex-direction: column;  width: 100%;  height: auto;  padding: 0;  margin-bottom: 24px;}
+.main-data {  display: flex;  flex-direction: column;  height: 61.6px;}
+.hero-heading {  width: 500px;  height: 36px;  top: 0.4px;  font-weight: 400;  font-style: bold;  font-size: 30px;  line-height: 36px;  letter-spacing: -0.75px;  color: #0f172b;}
+.hero-sub {  width: 400px;  height: 26px;  top: -0.4px;  font-weight: 400;  font-size: 16px;  line-height: 25.6px;  letter-spacing: 0px;}
