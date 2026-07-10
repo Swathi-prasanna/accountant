@@ -1,0 +1,107 @@
+/* Styles for Recent transaction */
+
+
+.card-header{
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+
+.transaction-card{
+  background:#fff;
+  border-radius:20px;
+  padding:24px;
+  box-shadow:02px 10px rgba(0,0,0,0.08);
+}
+
+.card-header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:10px;
+  gap:10px;
+}
+
+.transaction-header{
+  background:#f3f4f6;
+  font-weight:600;
+  color:#374151;
+}
+
+.transaction-row{
+  display:grid;
+  grid-template-columns:150px 150px 150px 150px 150px 150px 150px 200px;
+  align-items:center;
+  padding:16px;
+  border-bottom:1px solid #ececec;
+}
+
+.col{
+  padding:4px 8px;
+}
+
+.paid-text{
+  color:#16a34a;
+}
+
+.balance-red{
+  color:#ef4444;
+}
+
+.transaction-card {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #dfe6ee;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.06);
+}
+
+.transaction-card .card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+}
+
+.transaction-card h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.view-all-btn {
+  padding: 9px 16px;
+}
+
+.transaction-row {
+  display: grid;
+  grid-template-columns: 0.9fr 1.5fr 1.15fr 1fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  min-height: 56px;
+  border-bottom: 1px solid #edf1f5;
+}
+
+.transaction-row .col {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+
+.transaction-header {
+  min-height: 48px;
+  border-bottom: 0;
+  background: #f5f7fa;
+  color: #344256;
+  font-weight: 600;
+}
+
+.paid-text {
+  color: #16a34a;
+}
+
+.balance-red {
+  color: #dc2626;
+}

@@ -1,0 +1,89 @@
+/* Styles for FinanceDasboard */
+
+
+.hero-main {
+  display: flex;
+  width:1300.4px;
+  height: auto;
+  padding-top: 24px;
+  padding-left: 24px;
+  padding-right: 50px;
+  margin-top: 24px;
+  justify-content: space-between;
+  padding: 24px;
+  background-color: #f5f7fa;
+}
+
+.hero-heading{
+width: 320;
+height: 36;
+angle: 0 deg;
+opacity: 1;
+top: 0.4px;
+font-family: "Google Sans", sans-serif !important;
+font-weight: 700;
+font-style: Bold;
+font-size: 30px;
+leading-trim: NONE;
+line-height: 36px;
+letter-spacing: -0.75px;
+color: #0F172B;
+}
+
+.hero-sub{
+  margin-top:6px;
+  font: size 16px;
+}
+
+.search-box{
+  width: 150px;
+  height: 62px;
+  border:1px solid #dbe1ea;
+  border-radius:12px;
+  background:#ffff;
+  outline:none;
+  padding:0 16px;
+  font-size:14px;
+}
+
+.search-box:focus{
+  border-color:#1d9bf0;
+}
+
+.main-data {
+  display: flex;
+  flex-direction: column;
+  height: 61.6px;
+}
+
+.hero-main {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 0 0 20px;
+  margin: 0;
+  background: transparent;
+}
+
+.hero-heading {
+  margin: 0;
+  font-size: 28px;
+  line-height: 1.15;
+  font-weight: 700;
+}
+
+.hero-sub {
+  margin: 6px 0 0;
+  color: #536277;
+  font-size: 14px;
+}
+
+.search-box {
+  width: 176px;
+  height: 48px;
+  border: 1px solid #dce3ec;
+  border-radius: 8px;
+  background: #fff;
+}

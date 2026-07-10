@@ -1,0 +1,586 @@
+.accounts-container {
+  padding: 25px;
+  background: #f5f7fb;
+  min-height: 100vh;
+  font-family: "Google Sans", sans-serif !important;
+}
+.accounts-container {
+  padding: 25px;
+  background: #f5f7fb;
+  min-height: 100vh;
+  font-family: "Google Sans", Arial, sans-serif;
+}
+
+.filter-btn {
+  background: #f1f5f9;
+  width: 35;
+  height: 24;
+  angle: 0 deg;
+  opacity: 1;
+  top: 6.8px;
+  left: 41px;
+  font-family: "Google Sans", sans-serif !important;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.aging-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.aging-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  border: 1px solid #e5e7eb;
+}
+
+.aging-card h5 {
+  color: #6b7280;
+  margin-bottom: 10px;
+}
+
+.aging-card h3 {
+  margin-bottom: 8px;
+  color: #111827;
+}
+
+.aging-card p {
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.red-text {
+  color: #ef4444;
+  font-weight: 600;
+}
+
+.overdue-badge {
+  background: #fde68a;
+  color: 92400e;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.pending-badge {
+  background: #dbeafe;
+  color: #2563eb;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.na-badge {
+  color: #9ca3af;
+}
+
+.follow-btn {
+  border: none;
+  background: #f3f4f6;
+  padding: 8px 12px;
+  border-radius: 8px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.collect-btn {
+  border: none;
+  background: #0ea5e9;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.claims-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  border: 1px solid #e5e7eb;
+}
+
+.claims-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.submit-btn {
+  background: #f3f4f6;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.claims-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.claim-box p {
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+
+.claim-box h2 {
+  margin-bottom: 10px;
+}
+
+.overdue-badge {
+  color: #92400e;
+}
+
+.claim-box {
+  padding: 18px;
+  border-radius: 12px;
+}
+
+.accounts-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  min-height: calc(100vh - 120px);
+  padding: 24px;
+  border: 1px solid #dfe6ee;
+  border-radius: 12px;
+  background: #f8fafc;
+  color: #172033;
+  font-family: "Google Sans", Arial, sans-serif;
+}
+
+.receivables-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+.receivables-header h1 {
+  width: 274;
+  height: 36;
+  angle: 0 deg;
+  opacity: 1;
+  top: 0.4px;
+  font-family: "Google Sans", sans-serif !important;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 30px;
+  leading-trim: NONE;
+  line-height: 36px;
+  letter-spacing: -0.75px;
+  color: #0f172b;
+}
+
+.receivables-header p {
+  width: 312;
+  height: 26;
+  angle: 0 deg;
+  opacity: 1;
+  top: -0.4px;
+  font-family: "Google Sans", sans-serif !important;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 25.6px;
+  letter-spacing: 0px;
+  color: #45556c;
+}
+
+.receivables-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.true {
+  width: 13.331520080566406;
+  height: 12.666976928710938;
+  angle: 0 deg;
+  opacity: 1;
+  top: 2px;
+  left: 1.33px;
+  border-width: 1.33px;
+  border: 1.33px solid #314158;
+  width: 16;
+  height: 16;
+  angle: 0 deg;
+  opacity: 1;
+  top: 12px;
+  left: 16px;
+}
+
+.true1 {
+  width: 12;
+  height: 4;
+  angle: 0 deg;
+  opacity: 1;
+  top: 10px;
+  left: 2px;
+  border-width: 1.33px;
+  border: 1.33px solid #ffffff;
+}
+
+.receivables-actions .filter-btn {
+  background: #f1f5f9;
+  color: #314158;
+
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.06);
+}
+
+.receivables-actions .aging-export-btn {
+  background: #0ea5e9;
+  color: #ffffff;
+}
+
+.aging-cards {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 20px;
+  margin: 0;
+  width: 1222.4000244140625;
+  height: 144.78750610351562;
+  angle: 0 deg;
+  opacity: 1;
+}
+
+.aging-card {
+  width: 287.6000061035156;
+  height: 144.78750610351562;
+  gap: 8px;
+  angle: 0 deg;
+  opacity: 1;
+  padding-top: 28px;
+  padding-right: 24.8px;
+  padding-bottom: 0.8px;
+  padding-left: 24.8px;
+  border-radius: 16.4px;
+  border-top-width: 4px;
+  border-right-width: 0.8px;
+  border-bottom-width: 0.8px;
+  border-left-width: 0.8px;
+  background: #ffffff;
+  border-width: 4px, 0.8px, 0.8px, 0.8px;
+  border-style: solid;
+  border-color: #e2e8f0;
+  box-shadow: 0px 1px 2px -1px #0000001a;
+  box-shadow: 0px 1px 3px 0px #0000001a;
+}
+
+.aging-card p {
+  width: 69;
+  height: 24;
+  angle: 0 deg;
+  opacity: 1;
+  top: -1.2px;
+  font-family: "Google Sans", sans-serif !important;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: #45556c;
+}
+
+.aging-card h2 {
+  width: 66;
+  height: 32.00001525878906;
+  angle: 0 deg;
+  opacity: 1;
+  font-family: "Google Sans", sans-serif !important;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 24px;
+  leading-trim: NONE;
+  line-height: 32px;
+  letter-spacing: 0px;
+  color: #0f172b;
+}
+
+.aging-card span {
+  width: 79;
+  height: 24;
+  angle: 0 deg;
+  opacity: 1;
+  top: -1.2px;
+  font-family: "Google Sans", sans-serif !important;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: #45556c;
+}
+
+.receivable-card {
+  width: 100%;
+  border: 1px solid #dfe6ee;
+  border-radius: 12px;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04);
+}
+
+.receivable-card h3 {
+  width: 79;
+  height: 24;
+  angle: 0 deg;
+  opacity: 1;
+  top: -1.2px;
+  font-family: "Google Sans", sans-serif !important;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: #45556c;
+  margin: 0 0 20px;
+}
+
+.aging-analysis-card {
+  min-height: 320px;
+}
+
+.aging-chart {
+  display: grid;
+  grid-template-columns: 54px minmax(0, 1fr);
+  height: 250px;
+}
+
+.chart-scale {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 10px 22px 0;
+  color: #64748b;
+  font-size: 11px;
+  text-align: right;
+}
+
+.chart-plot {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(80px, 1fr));
+  align-items: end;
+  gap: 34px;
+  height: 100%;
+  padding: 0 20px 24px;
+  border-left: 1px solid #cbd5e1;
+  border-bottom: 1px solid #94a3b8;
+  background-image:
+    repeating-linear-gradient(
+      to top,
+      transparent 0,
+      transparent 49px,
+      #e7edf4 50px
+    ),
+    repeating-linear-gradient(
+      to right,
+      transparent 0,
+      transparent 179px,
+      #edf2f7 180px
+    );
+}
+
+.chart-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100%;
+  gap: 8px;
+}
+
+.chart-bar {
+  width: 100%;
+  max-width: 220px;
+  min-height: 8px;
+  background: #0ea5e9;
+}
+
+.chart-column span {
+  border: 1px solid #64748b;
+  font-size: 11px;
+  white-space: nowrap;
+}
+
+.outstanding-card {
+  padding-bottom: 24px;
+}
+
+.receivables-table-wrap {
+  overflow-x: auto;
+}
+
+.receivables-table {
+  width: 100%;
+  min-width: 880px;
+  border-collapse: collapse;
+}
+
+.receivables-table th {
+  background: #f5f7fa;
+  color: #334155;
+  padding: 13px 14px;
+  text-align: left;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.receivables-table td {
+  padding: 14px;
+  border-bottom: 1px solid #eef2f6;
+  color: #334155;
+  font-size: 13px;
+  vertical-align: middle;
+}
+
+.receivables-table tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+.red-text {
+  color: #ef4444 !important;
+  font-weight: 600;
+}
+
+.overdue-badge,
+.pending-badge {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  padding: 5px 10px;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.overdue-badge {
+  background: #ffedd5;
+  color: #ca3500;
+}
+
+.pending-badge {
+  background: #dbeafe;
+  color: #2563eb;
+}
+
+.na-badge {
+  color: #94a3b8;
+  font-size: 13px;
+}
+
+.bill-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.follow-btn,
+.collect-btn,
+.submit-btn {
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.follow-btn {
+  background: #eef2f7;
+  color: #334155;
+  padding: 9px 14px;
+}
+
+.collect-btn {
+  background: #0ea5e9;
+  color: #fff;
+  padding: 9px 14px;
+}
+
+.claims-card {
+  margin: 0;
+}
+
+.claims-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 18px;
+}
+
+.claims-header h3 {
+  font-family: "Google Sans", sans-serif !important;
+  font-weight: 600;
+  font-style: Semibold;
+  font-size: 20px;
+  leading-trim: NONE;
+  line-height: 28px;
+  letter-spacing: 0px;
+  color: #0f172b;
+  width: 214;
+  height: 28;
+  angle: 0 deg;
+  opacity: 1;
+  top: 0.8px;
+  margin: 0;
+}
+
+.submit-btn {
+  background: #f1f5f9;
+  color: #334155;
+  padding: 10px 16px;
+  font-family: "Google Sans", sans-serif !important;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.claims-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.claim-box {
+  min-height: 116px;
+  padding: 18px;
+  border-radius: 8px;
+}
+
+.claim-box p {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 10px;
+  font-size: 13px;
+}
+
+.claim-box h2 {
+  margin: 0 0 8px;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.claim-box strong {
+  font-size: 13px;
+  font-weight: 600;
+}
