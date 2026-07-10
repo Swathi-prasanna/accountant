@@ -1,0 +1,114 @@
+.body-card {
+  width: 100%;
+  border-radius: 16px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  opacity: 1;
+  padding-top: 24.8px;
+  padding-right: 24.8px;
+  padding-bottom: 0.8px;
+  padding-left: 24.8px;
+  border-radius: 16.4px;
+  border-width: 0.8px;
+  background: #ffffff;
+  border-top: 0.8px solid #e2e8f0;
+  box-shadow: 0px 1px 2px -1px #0000001a;
+  box-shadow: 0px 1px 3px 0px #0000001a;
+}
+.report-title {
+  width: 343.7375183105469;
+  opacity: 1;
+  font-weight: 600;
+  font-style: Semibold;
+  font-size: 18px;
+  line-height: 25.2px;
+  letter-spacing: 0px;
+  color: #0f172b;
+}
+.report-text {
+  width: 344;
+  opacity: 1;
+  top: -1.2px;
+  font-family: Segoe UI;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: #45556c;
+}
+.lab-page {
+  width: 1278.4000244140625;
+  height: 665.6000366210938;
+  opacity: 1;
+  padding-top: 24px;
+  padding-right: 24px;
+  padding-left: 24px;
+}
+.lab-title {
+  width: 161;
+  height: 36;
+  opacity: 1;
+  top: 0.4px;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: -0.75px;
+  color: #0f172b;
+  text-align: left;
+}
+.lab-subtitle {
+  width: 228;
+  height: 26;
+  opacity: 1;
+  top: -0.4px;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 25.6px;
+  letter-spacing: 0px;
+  color: #45556c;
+  text-align: left;
+}
+.body-card1 {
+  width: 500%;
+  max-width: 960px;
+  margin-top: 20px;
+  border-radius: 16px;
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+.card-body2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+}
+.report-title {
+  width: 343px;
+  height: 26px;
+  opacity: 1;
+  font-weight: 600;
+  font-style: Semibold;
+  font-size: 18px;
+  line-height: 25.2px;
+  letter-spacing: 0px;
+  color: #0f172b;
+}
+.report-text {
+  width: 344px;
+  height: 24px;
+  opacity: 1;
+  top: -1.2px;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: #45556c;
+}

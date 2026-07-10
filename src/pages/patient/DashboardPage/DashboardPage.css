@@ -1,0 +1,6 @@
+.app-layout {
+  display: flex;
+  min-height: 100vh;
+  margin-left: 155px;
+  right: 0;
+}
