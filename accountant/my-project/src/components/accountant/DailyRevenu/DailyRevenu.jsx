@@ -1,5 +1,6 @@
 import React from "react";
 import { FiDownload, FiPrinter, FiX } from "react-icons/fi";
+import "./DailyRevenue.css";
 
 const summaryItems = [
   {
