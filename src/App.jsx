@@ -14,6 +14,7 @@ function App() {
     <div className="app-layout">
       <PatientSidebar />
       <div className="content">
+        <PatientNavbar />
         <Routes>
           <Route path="/" element={<DashboardPage />} />
           <Route path="/PrescriptionPage" element={<Appointment />} />
