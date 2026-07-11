@@ -17,6 +17,7 @@
   display: flex;
   align-items: center;
   opacity: 1;
+  margin-top: 40px;
 }
 .appointments-title {
   width: 245px;
